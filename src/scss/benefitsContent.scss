@@ -1,0 +1,24 @@
+.benefits-content {
+    min-width: 304px;
+    min-height: 154px;
+    padding-left: 16px;
+    background-color: #F8F8F8;
+    padding-top: 24px;
+    @media screen and (min-width: 768px) {
+        max-width: 744px;
+        margin: 0 auto;
+        padding-left: 24px;
+    }
+    @media screen and (min-width: 1120px) {
+        min-width: 1088px;
+        padding-left: 32px;
+    }
+}
+
+.benefits-content__mobile {
+    padding-left: 0;
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
+}
+

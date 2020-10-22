@@ -1,0 +1,13 @@
+.language {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.lang {
+	margin-right: 7px;
+}
+
+.lang a:hover {	
+	transition-duration: 1s;
+	color: #7E7E82;
+}
